@@ -6,7 +6,8 @@ menu = """
 [q] Sair
 
 => """
-
+# String com 3 aspas (""") sempre vai preservar os espaços internos, fazendo uma melhor
+# organização em menus. Nao precisando ficar concatenando linha a linha.
 saldo = 0
 limite = 500
 extrato = ""
@@ -64,3 +65,19 @@ while True:
 
     else:
         print("Operação inválida, por favor selecione novamente a operação desejada.")
+
+######################################
+
+nome = "Sr. Rabanete"
+Msgm_boas_vindas = f"""
+    Bom dia,
+{nome}, que hoje seja um otimo dia para voce!
+"""
+Msgm_Fds = f"""
+                   Porra,
+{nome}
+            quero que tu va se fuder
+velho fudido... !!!
+"""
+print(Msgm_boas_vindas)
+print(Msgm_Fds)

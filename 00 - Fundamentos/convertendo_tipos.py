@@ -10,3 +10,15 @@ print(type(valor_str))
 
 print(100 / 2)
 print(100 // 2)
+
+###
+
+letra = "a"
+numero = 10
+palavra = "amarelo"
+decimal = 10.6
+
+print(type(letra))
+print(float(numero))
+# print(float(palavra)) #erro
+print(int(decimal))

@@ -12,5 +12,7 @@ def exibir_mensagem_3(nome="Anônimo"):
 
 exibir_mensagem()
 exibir_mensagem_2(nome="Guilherme")
-exibir_mensagem_3()
-exibir_mensagem_3(nome="Chappie")
+'''SE NAO TIVER O "GUILHERME" APOS O NOME DARA ERRO POIS A FUNÇÃO TEM O NOME,
+POREM SE FOR COLOCADO POR EXEMPLO OUTRO VALOR, SERÁ EXECUTADO NORMALMENTE exibir_mensagem_2("GUI")'''
+exibir_mensagem_3()  # SE NAO FOR DADO NENHUM VALOR, ELE PUXARA O VALOR DA FUNÇÃO
+exibir_mensagem_3(nome="Chappie")  # SERA RETORNADO CHAPPIE AO INVEZ DE ANONIMO

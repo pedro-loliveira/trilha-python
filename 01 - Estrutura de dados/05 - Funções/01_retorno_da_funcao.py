@@ -9,5 +9,5 @@ def retorna_antecessor_e_sucessor(numero):
     return antecessor, sucessor
 
 
-print(calcular_total([10, 20, 34]))  # 64
-print(retorna_antecessor_e_sucessor(10))  # (9, 11)
+print(calcular_total([10, 20, 34]))  # retorno=64
+print(retorna_antecessor_e_sucessor(10))  # retorno=(9, 11)

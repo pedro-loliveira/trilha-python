@@ -8,3 +8,6 @@ def exibir_resultado(a, b, funcao):
 
 
 exibir_resultado(10, 10, somar)  # O resultado da operação 10 + 10 = 20
+
+
+# string e um objeto de primeira classe
