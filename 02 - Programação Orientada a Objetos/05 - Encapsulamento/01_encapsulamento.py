@@ -20,3 +20,7 @@ conta = Conta("0001", 100)
 conta.depositar(100)
 print(conta.nro_agencia)
 print(conta.mostrar_saldo())
+'''
+E um conceito fundamental evitando alterações indesejadas, porem em python
+e apenas uma convencao que deve ser seguida a risca
+'''
