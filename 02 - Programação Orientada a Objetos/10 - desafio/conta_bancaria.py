@@ -10,16 +10,20 @@ exibir_saldo(): retorna uma string formatada como "Saldo: R$X.XX".
 
 
 class ContaBancaria:
-    def __init__(self):
+    def __init__(self, saldo):
+        self.saldo = saldo
+        saldo = 0
         # TODO: Inicialize o saldo
 
     def depositar(self, valor):
+        
         # TODO: Implemente o depósito
 
     def sacar(self, valor):
         # TODO: Implemente o saque com validação
 
     def exibir_saldo(self):
+        return f"Saldo: R$" float({saldo}) 
         # TODO: Retorne o saldo formatado
 
         # Entrada
