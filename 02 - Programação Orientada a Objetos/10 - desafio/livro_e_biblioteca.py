@@ -10,19 +10,20 @@ status(): retorna "Disponível" ou "Indisponível".
 
 class Livro:
     def __init__(self, titulo, autor):
-        # TODO: Inicialize os atributos
+        # Inicialize os atributos
 
     def emprestar(self):
-        # TODO: Altere o status
+        # Iltere o status
 
     def devolver(self):
-        # TODO: Altere o status
+        # Iltere o status
 
     def status(self):
-        # TODO: Retorne o status formatado
+        # Ietorne o status formatado
+
 
         # Entrada
 titulo = input()
 autor = input()
 
-# TODO: Crie a instância, teste empréstimo/devolução e exiba o status
+# Irie a instância, teste empréstimo/devolução e exiba o status
